@@ -1,2 +1,2 @@
 # Ghui
-Ghui is a bash script that fetch GitHub user info via GitHub API using username.
+The ghui is a bash script that fetches GitHub user info via GitHub API using the username.
