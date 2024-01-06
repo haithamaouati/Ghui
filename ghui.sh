@@ -2,7 +2,10 @@
 
 # Author: Haitham Aouati
 # GitHub: https://github.com/haithamaouati
-                                                        clear
+# Description: A bash script that fetches GitHub user info via GitHub API using the username.
+
+clear
+
 figlet -f standard "GHUI"
 echo -e " Author: Haitham Aouati\n"
 
