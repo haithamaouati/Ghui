@@ -15,16 +15,15 @@ if [ $# -ne 1 ]; then
 fi
 
 USERNAME=$1
-ACCESS_TOKEN="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"
-API_URL="https://api.github.com/users/$USERNAME"        
+ACCESS_TOKEN="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"
+API_URL="https://api.github.com/users/$USERNAME"
 response=$(curl -s -H "Authorization: token $ACCESS_TOKEN" $API_URL)
 if [ -z "$response" ]; then
   echo "Failed to fetch user information. Please check the username and try again."
   exit 1
 fi
 
-echo "Username: $(echo "$response" | jq -r .login)"
-echo -e "\n"
+echo "Fetching: $(echo "$response" | jq -r .login)"
 echo "Name: $(echo "$response" | jq -r .name)"
 echo "Email: $(echo "$response" | jq -r .email)"
 echo "Bio: $(echo "$response" | jq -r .bio)"
