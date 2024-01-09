@@ -2,7 +2,7 @@
 
 # Author: Haitham Aouati
 # GitHub: https://github.com/haithamaouati
-# Description: A bash script that fetches GitHub user info via GitHub API using the username.
+# Description: A bash script that fetches GitHub user info via GitHub API by username.
 
 clear
 
