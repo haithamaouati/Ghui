@@ -3,6 +3,15 @@
 ![watchers](https://custom-icon-badges.demolab.com/github/watchers/haithamaouati/Ghui?logo=eye)
 ![license](https://custom-icon-badges.demolab.com/github/license/haithamaouati/Ghui?logo=law)
 
+```
+   ____ _   _ _   _ ___ 
+  / ___| | | | | | |_ _|
+ | |  _| |_| | | | || | 
+ | |_| |  _  | |_| || | 
+  \____|_| |_|\___/|___|
+                        
+```
+
 # Ghui
 
 Ghui is a bash script that fetches GitHub user info via GitHub API by username.
