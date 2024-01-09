@@ -16,12 +16,15 @@ Ghui is a bash script that fetches GitHub user info via GitHub API by username.
 
 ## Usage
 
-1. Make sure you have [figlet](http://www.figlet.org/) and [curl]() installed on your system.
+1. Make sure you have `figlet`, `curl` and `jq` installed on your system.
 ```
 apt install figlet
 ```
 ```
 apt install curl
+```
+```
+apt install jq
 ```
 2. Download or clone the script to your local machine.
 ```
